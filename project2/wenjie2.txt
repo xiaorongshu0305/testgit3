@@ -1,0 +1,6 @@
+project2:
+1.Carousel figure is implemented use HTML,CSS,javascript.
+2.Add onclick function to elements use javascript.
+2-1:switch pictures by click an element.
+2-2:change the style of the element when click it.
+2-3:display the hidden divs when click the relavent element.

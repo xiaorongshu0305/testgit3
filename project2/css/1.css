@@ -1,0 +1,313 @@
+body{
+	background: #333;
+	margin:0;
+}
+.doc{
+	overflow: hidden;
+	margin: 0 auto;
+}
+.turn{
+	width:77%;
+	margin: 0 auto;
+	font-size: 104px;
+}
+.turn a{
+	display: block;
+}
+.turn div a{
+	text-decoration: none;
+	display: block;
+	margin-top: 134px;
+	color:#fff;
+	opacity: 0.6;
+}
+.turn div a:hover{
+	color: #fff;
+	opacity: 1;
+}
+.turn-left{
+	margin-top: 23px;
+	height: 500px;
+    width: 88px;
+    float:right;
+    position: absolute;
+    right: 184px;
+    top:187px;
+}
+.turn-right{
+	margin-top: 23px;
+	height: 500px;
+    width: 88px;
+    float:left;
+    position: absolute;
+    left: 184px;
+    top:187px;
+}
+.header{
+	width: 960px;
+	background:#fff;
+	overflow: hidden;
+	margin:0 auto;
+	position: absolute;
+	left:261px; 
+	top: 0px;
+}
+.logo{
+	width: 110px;
+	height: 61px;
+	margin:0;
+	float: right;
+	padding-right: 15px;
+
+}
+.logo img{
+	display: block;
+	width: 100%;
+}
+.nav{
+	width: 53%;
+	margin-top: 26px;	
+}
+.nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	font-size: 15px;
+	height: 35px;
+	
+}
+.nav ul li{
+	float: left;
+	height: 100%;	
+}
+.Home{
+	width: 12%;
+}
+.Technology{
+	width: 20%;
+}
+.Safety{
+	width: 25%;
+}
+.Bosch{
+	width: 30%;
+}
+
+.nav ul li a{
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	color: #727272;
+	padding-top: 8px;
+	height: 100%;
+}
+.nav ul li a:hover {
+	background: #e7e7e7;
+	color: #003B6A;
+}
+.hole{
+	width: 100%;
+	max-width: 960px;
+	margin:0 auto;
+    position: absolute;
+    top: 849px;
+    left: 261px;
+}
+#img{
+	width: 100%;
+	position: relative;
+}
+#body-nav{
+	width: 100%;
+	margin:0;
+}
+#body-nav ul{
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    width: 100%
+
+}
+#body-nav ul a li{
+	height: 64px;
+	background: #013b69;
+}
+#body-nav ul a{
+	float: left;
+	display:block; 
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    width:320px;
+    color: #fff;
+    padding-top: 5px;
+}
+
+#body-nav ul a li p{
+	margin: 0;
+	padding-top: 16px;
+
+}
+#acc{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.active-nav{
+	display: none;
+}
+.active-nav ul{
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    width: 100%
+
+}
+.active-nav ul li{
+	height: 48px;
+	margin-top: 24px;
+}
+.active-nav ul a{
+	float: left;
+	display:block; 
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    width:320px;
+    color: #414246;
+    background: #fff;
+}
+.acc{
+	margin: 0 5px;
+}
+.footer-top{
+	overflow: hidden;
+	margin-top: 23px;
+}
+.footer-top div a{
+	display: block;
+	width: 460px;
+}
+.footer-top div a img{
+	width: 100%;
+}
+.footer-top div{
+	float:left;
+}
+.tl{
+	margin-right: 10px;
+	margin-left: 13px;
+}
+.tl img{
+	height: 274px;
+}
+.bl{
+	margin-right: 10px;
+	margin-left: 13px;
+}
+.tr{
+	margin-bottom: 10px;
+}
+.footer-bottom{
+	clear:both;
+}
+
+.footer-bottom a{
+	width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+}
+.footer-bottom a:hover{
+	color:#c3c3c4;
+}
+.footer-bottom{
+	padding:3px;
+	margin-left: 3px;
+}
+.IP{
+	padding:6px;
+}
+.IP ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+.IP ul li{
+	float: left;
+	font-size: 10px;
+	color: #c3c3c4;
+}
+.IP ul li a{
+	text-decoration:none;
+	color: #c3c3c4;
+}
+.IP ul li a:hover{
+	color: #fff;
+}
+
+
+
+.footer-down{
+	padding-left:6px;
+}
+
+.footer-down ul {
+	list-style: none;
+	overflow: hidden;
+	margin:0;
+	padding: 0
+}
+.footer-down ul li {
+    float: left;
+    color: #c3c3c4;
+    font-size: 10px;
+}
+.footer-down ul li a{
+	color: #c3c3c4;
+	text-decoration:none;
+}
+.footer-down ul li a:hover{
+	color: #fff;
+}
+.footer-down span{
+	color: #c3c3c4;
+	font-size: 10px;
+}
+.nt{
+    background: #fff;
+    display: none;
+}
+.nt img{
+	width: 81%;
+	margin-left: 54px;
+
+}
+.na{
+	background: #fff;
+	display: none;
+}
+.na img{
+	width: 81%;
+	margin-left: 86px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.p{
+	background-color:#fff;
+	height: 42px;
+	padding-top: 10px;
+	text-align: center;
+	display: none;
+}
+.p p{
+	margin:0;
+	margin-top: 6px;
+}

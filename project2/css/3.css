@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding:0;
+}
+#outer{
+	width: 405px;
+	height: 319px;
+	margin: 50px auto;
+	position: relative;
+	background: yellow;
+	padding:5px 0;
+}
+#imglist{
+	list-style: none;
+	margin: 0;
+	padding:0;
+	position: absolute;
+	left: 0px;
+}
+#imglist li{
+	float: left;
+	margin: 0 5px;
+}
+#navdiv{
+	position: absolute;
+	overflow: hidden;
+	bottom: 10px;
+}
+#navdiv a{
+	display: block;
+	width: 10px;
+	height: 10px;
+	background:red;
+	float: left;
+	margin: 0 5px;
+	opacity: 0.6;
+	filter: alpha(opacity=50);
+}
+#navdiv a:hover{
+	background:black;
+}
